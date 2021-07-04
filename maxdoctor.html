@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+    <title>MaxDoctor</title>
+</head>
+
+<body>
+    <div class="overlay-success hide">
+        <aside class="success-popup">
+            <p>sucesso</p>
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_yseigbny.json" autoplay  background="transparent"  speed="1"  style="width: 30px; height: 30px;"></lottie-player>
+            <img src="./assets/images/exit.png" id="btn-close"/>
+        </aside>
+    </div>
+    <img src="./assets/images/relogio-bg.png" id="bg-img"/>
+    <section id="max-doctor">
+        <div>
+            <img src="./assets/images/logo.png" />
+            <h1>A plataforma de compra direta do seu anestésico tópico</h1>
+        </div>
+        <div>
+            <form>
+                <div>
+                    <label for="crm">CRM</label>
+                    <input id="crm" name="crm" placeholder="00000"></input>
+                </div>
+                <span class="crm-required hide">Campo obrigatório</span>
+                <span class="crm-invalid hide">Campo inválido</span>
+                <div>
+                    <label for="uf">UF</label>
+                    <select id="uf" name="uf">
+                        <option value="">Selecionar</option>
+                    </select>
+                </div>
+                <span class="uf-required hide">Campo obrigatorio</span>
+                <button id="btn-continue">continue</button>
+            </form>
+            <p>canal de compra exclusivo para classe médica</p>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <img src="./assets/images/icone-frete.png"/>
+                    <span>Frete grátis</span>
+                </li>
+                <li>
+                    <img src="./assets/images/icone-agilidade.png"/>
+                    <span>Agilidade</span>
+                </li>
+                <li>
+                    <img src="./assets/images/icone-comodidade.png"/>
+                    <span>Comodidade</span>
+                </li>
+                <li>
+                    <img src="./assets/images/icone-facilidade.png"/>
+                    <span>Facilidade </br> de compra</span>
+                </li>
+                <li>
+                    <img src="./assets/images/icone-quantidade.png"/>
+                    <span>Quantidade </br>não limitada</span>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    
+
+
+</body>
+
+</html>
