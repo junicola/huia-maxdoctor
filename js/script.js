@@ -1,8 +1,6 @@
 $( document ).ready(function() {
-    console.log( "ready!" );
-
     $("#btn-home").click(function() {
-        location.href = '/maxdoctor.html' ;
+        location.href = './maxdoctor.html' ;
     })
 
     $.get( "https://servicodados.ibge.gov.br/api/v1/localidades/estados", function(result) {
