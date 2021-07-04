@@ -57,8 +57,5 @@ $( document ).ready(function() {
 
         $("#crm").val('');
         $("#uf").val('');
-
     })
- 
-    
 });

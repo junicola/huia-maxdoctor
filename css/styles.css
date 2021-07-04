@@ -213,7 +213,7 @@ button:hover {
 /*responsive*/
 @media only screen and (max-width: 768px) {
     #max-doctor {
-      width: 100%;
+      width: 90%;
     }
     #max-doctor h1 {
         font-size: 24px;
